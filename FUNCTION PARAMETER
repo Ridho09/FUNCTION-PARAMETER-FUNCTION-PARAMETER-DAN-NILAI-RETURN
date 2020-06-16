@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+
+int hambatanSeri (int R1,   int R2, int R3){
+    return R1 + R2 + R3;
+}
+int main (){
+    cout << "hasil hambatan seri adalah"<< endl;
+    cout << hambatanSeri (30 , 25 , 50);
+}
